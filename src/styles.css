@@ -1958,3 +1958,81 @@ button:disabled {
     scrollbar-color: var(--ink-3) transparent;
   }
 }
+
+@media (min-width: 1081px) and (max-height: 860px) {
+  .topbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .layout {
+    padding-top: 16px;
+    gap: 18px;
+  }
+
+  .workspace,
+  .rail {
+    gap: 12px;
+  }
+
+  .chain {
+    padding: 12px 14px 14px;
+  }
+
+  .chain__header {
+    margin-bottom: 10px;
+  }
+
+  .chain__card {
+    padding: 8px 10px 8px;
+  }
+
+  .chain__code {
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+
+  .chat__empty {
+    padding: 16px 8px;
+  }
+
+  .chat__empty h2 {
+    font-size: 46px;
+    margin: 8px 0 10px;
+  }
+
+  .chat__lede {
+    margin-bottom: 16px;
+  }
+
+  .panel {
+    padding: 14px 16px 16px;
+  }
+
+  .quota__big,
+  .rate__used {
+    font-size: 42px;
+  }
+
+  .quota__figure {
+    margin-bottom: 10px;
+  }
+
+  .quota__upgrade {
+    margin-top: 12px;
+    padding: 9px 12px;
+  }
+
+  .rate__dial {
+    width: 86px;
+    height: 86px;
+  }
+
+  .rate__dial-label {
+    bottom: 20px;
+  }
+
+  .composer {
+    padding: 10px 12px 10px 16px;
+  }
+}
